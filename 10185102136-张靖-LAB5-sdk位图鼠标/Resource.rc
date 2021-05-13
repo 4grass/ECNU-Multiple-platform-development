@@ -1,0 +1,264 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winresrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""winresrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                      ID_40001
+    END
+    POPUP "对话框(&O)"
+    BEGIN
+        MENUITEM "模式对话框(&M)\tCtrl+A",           ID_40005
+        MENUITEM "无模式对话框(&O)\tCtrl+B",          ID_40006
+        MENUITEM "文件对话框(&L)\tCtrl+C",           ID_40007
+    END
+    POPUP "光标类型(&R)"
+    BEGIN
+        MENUITEM "光标箭头(普通)\tAlt+1",            ID_Menu
+        MENUITEM "光标箭头(十字)\tAlt+2",            ID_40009
+        MENUITEM "光标箭头(自定义)\tAlt+3",           ID_40010
+    END
+    POPUP "语言(&L)"
+    BEGIN
+        MENUITEM "中(Chinese)\tCtrl+Shift+Delete",    ID_Menu40013
+        MENUITEM "英(English)\tCtrl+Shift+Backspace",    ID_40014
+    END
+    POPUP "关于(&A)"
+    BEGIN
+        MENUITEM "程序信息(&I)\tF1",                ID_40012
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 310, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,173,48,50,14
+    PUSHBUTTON      "取消",IDCANCEL,175,81,50,14
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,50,45,39,10
+    CONTROL         "Check2",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,50,72,39,10
+    CONTROL         "Check3",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,98,39,10
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 310, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU|WS_VISIBLE
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,193,43,50,14
+    PUSHBUTTON      "取消",IDCANCEL,197,85,50,14
+    CONTROL         "Radio1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,61,39,38,10
+    CONTROL         "Radio2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,63,64,38,10
+    CONTROL         "Radio3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,62,88,38,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "cursor1.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "bitmap1.bmp"
+
+IDB_BITMAP2             BITMAP                  "bitmap2.bmp"
+
+IDB_BITMAP3             BITMAP                  "bitmap3.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS
+BEGIN
+    "^A",           ID_40005,    ASCII,  NOINVERT
+    "^B",           ID_40006,    ASCII,  NOINVERT
+    "^C",           ID_40007,    ASCII,  NOINVERT
+    "1",           ID_Menu,    ASCII,  ALT, NOINVERT
+    "2",            ID_40009,    ASCII,  ALT, NOINVERT
+    "3",            ID_40010,    ASCII,  ALT, NOINVERT
+    VK_DELETE,      ID_Menu40013,    VIRTKEY, SHIFT, CONTROL, NOINVERT
+    VK_BACK,        ID_40014,    VIRTKEY, SHIFT, CONTROL, NOINVERT
+    VK_F1,           ID_40012,    VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_STRING111           "File(&F)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING112           "Exit(&X)"
+    IDS_STRING113           "Dialog(&O)"
+    IDS_STRING114           "model dialog(&M)\tCtrl+A"
+    IDS_STRING115			"modelless dialog(&O)\tCtrl+B"
+    IDS_STRING116           "file dialog(&L)\tCtrl+C"
+    IDS_STRING117           "cursor(&R)"
+    IDS_STRING118           "cursor1\tAlt+1"
+    IDS_STRING119           "cursor2\tAlt+2"
+    IDS_STRING120           "cursor3\tAlt+3"
+    IDS_STRING121           "language(&L)"
+    IDS_STRING122           "chinese\tCtrl+Shift+Delete"
+    IDS_STRING123           "english\tCtrl+Shift+Backspace"
+    IDS_STRING124           "about(&A)"
+    IDS_STRING125           "program information(&I)\tF1"
+    IDS_STRING126           "文件(&F)"
+    IDS_STRING127           "退出(&X)"
+    IDS_STRING128           "对话框(&O)"
+    IDS_STRING129           "模式对话框(&M)\tCtrl+A"
+    IDS_STRING130			"无模式对话框(&O)\tCtrl+B"
+    IDS_STRING131           "文件对话框(&L)\tCtrl+C"
+    IDS_STRING132           "光标类型(&R)"
+    IDS_STRING133           "光标箭头(普通)\tAlt+1"
+    IDS_STRING134           "光标箭头(十字)\tAlt+2"
+    IDS_STRING135           "光标箭头(自定义)\tAlt+3"
+    IDS_STRING136           "语言(&L)"
+    IDS_STRING137           "中(Chinese)\tCtrl+Shift+Delete"
+    IDS_STRING138           "英(English)\tCtrl+Shift+Backspace"
+    IDS_STRING139           "关于(&A)"
+    IDS_STRING140           "程序信息(&I)\tF1"
+    IDS_STRING141           "10185102136 张靖"
+    IDS_STRING142           "10185102136 Zaneking"
+
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

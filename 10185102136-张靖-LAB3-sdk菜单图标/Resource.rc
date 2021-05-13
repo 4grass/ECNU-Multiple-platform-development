@@ -1,0 +1,125 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winresrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""winresrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_FIRST               ICON                    "icon1.ico"
+
+IDI_THIRD               ICON                    "ico00001.ico"
+
+IDI_SECOND              ICON                    "icon2.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS
+BEGIN
+    VK_F1,          ID_CX,                  VIRTKEY, NOINVERT
+    "x",            ID_TB1,                 ASCII,  ALT, NOINVERT
+    "y",            ID_TB2,                 ASCII,  ALT, NOINVERT
+    "z",            ID_TB3,                 ASCII,  ALT, NOINVERT
+    "1",            ID_XS1,                 ASCII,  ALT, NOINVERT
+    "3",            ID_XS3,                 ASCII,  ALT, NOINVERT
+    "4",            ID_XS4,                 ASCII,  ALT, NOINVERT
+    "2",            ID_XS2,                 ASCII,  ALT, NOINVERT
+    "^f",			ID_EEEE,				ASCII, NOINVERT
+    VK_RETURN,      ID_EXIT,                VIRTKEY, SHIFT, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Exit\tctrl+shift+enter",     1112
+    END
+    POPUP "图标(&I)"
+    BEGIN
+        MENUITEM "图标(&X)\talt+x",               2001
+        MENUITEM "图标(&Y)\talt+y",               2002
+        MENUITEM "图标(&Z)\talt+z",               2003
+    END
+    POPUP "显示(&D)"
+    BEGIN
+        MENUITEM "显示(&1)\talt+1",               3001
+        MENUITEM "显示(&2)\talt+2",               3002
+        MENUITEM "显示(&3)\talt+3",               3003
+        MENUITEM "显示(&4)\talt+4",               3004
+    END
+    POPUP "关于(&A)"
+    BEGIN
+        MENUITEM "程序信息(&I)\tF1",                ID_CX
+    END
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
